@@ -17,11 +17,6 @@ public class DataHolder<T> implements IDataHolder<T> { // очередь ник�
     }
 
     @Override
-    public int size() {
-        return dataHolder.size();
-    }
-
-    @Override
     public Iterator<T> getIterator() {
         return dataHolder.iterator();
     }
