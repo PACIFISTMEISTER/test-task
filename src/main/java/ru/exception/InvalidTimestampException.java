@@ -7,6 +7,6 @@ public class InvalidTimestampException extends Exception {
     }
 
     public static InvalidTimestampException createExceptionByTimestamp(int timestamp) {
-        return new InvalidTimestampException("invalid timestamp cant be less then zero " + timestamp);
+        return new InvalidTimestampException("invalid timestamp cant be less then zero or equal zero " + timestamp);
     }
 }

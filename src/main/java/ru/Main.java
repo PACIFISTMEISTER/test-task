@@ -17,6 +17,8 @@ public class Main {
         actionCount.call(2);
         actionCount.call(3);
 
+        log.info(actionCount.getActions(4));
+
         actionCount.call(300);
 
         log.info(actionCount.getActions(300));
