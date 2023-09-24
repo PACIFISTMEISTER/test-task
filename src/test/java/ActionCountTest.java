@@ -9,7 +9,6 @@ import ru.task.IActionCount;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 public class ActionCountTest {
 
@@ -99,7 +98,7 @@ public class ActionCountTest {
         }
 
         for (int i = 1; i < 10; i++) {
-            log.info("getting this action {} {}",i,actionCount.getActions(i * STEP));
+            log.info("getting this action {} {}", i, actionCount.getActions(i * STEP));
         }
     }
 }
